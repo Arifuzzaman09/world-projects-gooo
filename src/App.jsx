@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import Contries from './component/contries'
+
 import './App.css'
 
 const contriesPromise = fetch('https://openapi.programming-hero.com/api/all')
